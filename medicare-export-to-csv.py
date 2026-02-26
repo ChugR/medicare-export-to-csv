@@ -2,11 +2,44 @@
 
 """
 Overview
---------
-myMedicare lets one export claims as a text file.
-The file is formatted like a flattened database text dump.
-It does not conform well to a known, structured file format.
-This code reads that text file and writes a CSV file for spreadsheet import.
+========
+What happens behind the Medicare-Private insurance billing wall(s)?
+Suppose I go to CVS and get a "free" flu shot. How much did CVS bill for it?
+Where did that bill go? How much did my private insurance have to pay?
+At the end of the year were my private insurance premiums worth it or did
+medicare pay for everything?
+
+This code is an exploration into finding answers to these questions.
+
+Apparently each medical insurance billable event is first sent to Medicare.
+There it is assigned a "Claim" number.
+Then each treatment or procedure related to the event has a "Procedure Code" and
+costs associated with it. Each of these is listed as a "Claim Line" for the Claim.
+
+As a claim is processed the provider charges some amount. Medicare then may reduce
+that amount (why? how?) or it may not to arrive at an Approved amount. Then
+Medicare pays some amount the provider which may or may not be less than the
+approved amount. I presume that the unpaid amount is then sent to my private
+insurance who may or may not pay it. After that I get my bill.
+
+The MyMedicare gui summarizes the claims but is not great at exposing details.
+The exported claims text file shows everything. But each claim line contains a
+dizzying amount of detail and there may be hundreds of claim lines for a given
+claim. The CSV spreadsheet data omits many details in order to present an
+executive overview of Medicare internals that makes sense.
+
+Obviously you don't just look in one place to see what happened.
+This code is part of a process:
+
+ * Log in to myMedicare and export claims as a text file.
+   The file is formatted like a flattened database text dump.
+   It does not conform well to a known, structured file format.
+
+ * This code reads that text file and writes a CSV file for spreadsheet import.
+
+ * Import it into LibreOffice Calc or MS Excel.
+
+ * Enjoy
 
 Download data from medicare
 ---------------------------
@@ -16,7 +49,7 @@ Download data from medicare
   Select 'as a .TXT file'.
 
   * The medicare gui makes it hard to download 'last year only', so
-    go ahead and select _two_ years.
+    go ahead and select _two_ years or whatever you like.
 
 Code notes
 ----------
@@ -25,7 +58,6 @@ The 'c' of 'csv' is replaced by a '|' vertical bar as there are commas in some o
 exported dollar amount fields.
 
 This code sums up the total claim amounts and the per-claim line amounts.
-A spreadsheet could do this, but it's a pain doing a lot of manual work.
 
 Year over year the exported data field names vary. This keeps maintenance on this
 code high.
@@ -43,14 +75,17 @@ Chug 11/11/2024
                 This generally spoils summing the columns since columns are
                 overloaded.
 1.5 2/24/2026 - Add code to sum claim lines for a claim and all claims.
+1.6 2/25/2026 - Summarize and print Claim Lines Non-Covered numbers.
+              - Some bug fixes, and commentary.
 
 CSV output formatting
 ---------------------
-CSV columns for claim and claim lines use columns for different data
+CSV columns for claim and claim lines overload columns for different data types
 
- col 1|                col 2| col 3|       col 4|    col 5| col 6|       col 7|     col 8
-claim#|             provider|  date| amt charged| approved|  paid| bill-to-you| claimType
- line#| procedure code/descr|  date|   submitted|  allowed|   <b>| non-covered|       <b>
+| col 1|                col 2| col 3|       col 4|    col 5| col 6|       col 7|     col 8|
+|------|---------------------|------|------------|---------|------|------------|----------|
+|claim#|             provider|  date| amt charged| approved|  paid| bill-to-you| claimType|
+|line# | procedure code/descr|  date|   submitted|  allowed|   <b>| non-covered|       <b>|
 """
 
 import sys
@@ -61,7 +96,7 @@ from re import sub
 from decimal import Decimal
 import copy
 
-version = 1.5
+version = 1.6
 
 # key prefixes
 HEADER_SEP = "--------------------------------"  # ignore this
@@ -100,7 +135,7 @@ def main_except(argv):
     # One required for all claims and this is it.
     # Only the non-dummy lines are used.
     claims_accum = {
-        "dummy1":                                        'All',
+        "dummy1":                                        'All Claims',
         "dummy2":                          'Sum of all claims',
         "dummy3":                                          '.',
         "Amount Charged:":                                 Decimal(0),
@@ -110,6 +145,7 @@ def main_except(argv):
         "dummy4":                                          '.'}
 
     # computed list of non-dummy claims_accum keys
+    # This is a convenience for later summing only the useful fields.
     claims_accum_keys = [x for x in list(claims_accum.keys())
                          if not x.startswith("dummy") ]
 
@@ -126,7 +162,7 @@ def main_except(argv):
     # Storage for sum of one claim's line dollar amounts
     # One required for each claim and this is a template.
     lines_accum_template = {
-        "dummy1": "All",
+        "dummy1": "This claim",
         "dummy2": "Sum of claim lines",
         "dummy3": "",
         "Submitted Amount/Charges:": Decimal(0),
@@ -137,6 +173,14 @@ def main_except(argv):
     # computed list of non-dummy lines_accum
     lines_accum_keys = [x for x in list(lines_accum_template.keys())
                          if not x.startswith("dummy") ]
+
+    # Inconsistency alert:
+    #  * Claim objects have a "You May Be Billed" field which is always zero.
+    #  * Claim Lines have a "Non-Covered" field which often is non-zero.
+    # As a naive citizen I'd expect the "You May Be Billed" claim field to be the
+    # sum of the claim lines' "Non-Covered" values. But no. So, accumulate all the
+    # Non-Covered sums here and print them at the end.
+    non_covered_lines_accum = Decimal(0)
 
     # storage for as-parsed csv line
     # this one dict object stores claims and claim lines
@@ -248,6 +292,8 @@ def main_except(argv):
                     format_claim_value(lines_accum, key)
                 value_list = list(lines_accum.values())
                 print(db_sep.join(value_list))
+                # accumulate the non-covered values
+                non_covered_lines_accum += Decimal(lines_accum["Non-Covered:"])
             lines_accum = copy.deepcopy(lines_accum_template)
 
             parse_state = State.PROCESSING_CLAIM
@@ -257,11 +303,32 @@ def main_except(argv):
         add_data_value(in_line)
     flush_data(parse_state)
 
+    # Print last claim lines summary and accumulate it
+    for key in lines_accum_keys:
+        format_claim_value(lines_accum, key)
+    value_list = list(lines_accum.values())
+    print(db_sep.join(value_list))
+    # accumulate the non-covered values
+    non_covered_lines_accum += Decimal(lines_accum["Non-Covered:"])
+
     # Done dumping claims. Print the totals.
+    print()
     for key in claims_accum_keys:
         format_claim_value(claims_accum, key)
     value_list = list(claims_accum.values())
     print(db_sep.join(value_list))
+
+    # Print the sum of the Non-Covered values from all the Claim Lines
+    sum_lines_accum = {
+        "d1": "All Claim Lines",
+        "d2": "Sum of Non-Covered amounts",
+        "d3": "",
+        "d4": "",
+        "d5": "",
+        "d6": "",
+        "d7": format(non_covered_lines_accum, ".2f")
+    }
+    print(db_sep.join(list(sum_lines_accum.values())))
 
     """
     # Note: This is nice info but it spoils the general spreadsheet.
