@@ -77,6 +77,7 @@ Chug 11/11/2024
 1.5 2/24/2026 - Add code to sum claim lines for a claim and all claims.
 1.6 2/25/2026 - Summarize and print Claim Lines Non-Covered numbers.
               - Some bug fixes, and commentary.
+1.6 2/26/2026 - Commentary
 
 CSV output formatting
 ---------------------
@@ -96,7 +97,7 @@ from re import sub
 from decimal import Decimal
 import copy
 
-version = 1.6
+version = 1.7
 
 # key prefixes
 HEADER_SEP = "--------------------------------"  # ignore this
@@ -104,8 +105,8 @@ PREFIX_NEW_CLAIM = "Claim Number"  # starts a claim
 PREFIX_CLAIM_LINE = "Line number"  # starts a claim line
 PREFIX_END_CLAIMS = "Prescription Drug"  # ends data of interest
 
-# database csv separator
-# commas won't work as CSV separators as commas are normal in the data. Use this separator.
+# csv output separator
+# commas won't work as CSV separators because the comma character is normal in the data.
 db_sep = '|'
 
 # parser state
@@ -118,6 +119,7 @@ class State(Enum):
 def main_except(argv):
     # parsed data -> csv output formatting
     # map key is input file claim key value, map value is output CSV column header
+    # input file Claim Number is output in the Claim # column
     header_map: dict[str, str] = {
         "Claim Number:": "Claim #",
         "Provider:": "Provider",
@@ -159,7 +161,7 @@ def main_except(argv):
         "Blank Space": "",
         "Non-Covered:": ""}
 
-    # Storage for sum of one claim's line dollar amounts
+    # For a single claim this stores the sum of all the 'claim line' dollar amounts.
     # One required for each claim and this is a template.
     lines_accum_template = {
         "dummy1": "This claim",
@@ -178,8 +180,9 @@ def main_except(argv):
     #  * Claim objects have a "You May Be Billed" field which is always zero.
     #  * Claim Lines have a "Non-Covered" field which often is non-zero.
     # As a naive citizen I'd expect the "You May Be Billed" claim field to be the
-    # sum of the claim lines' "Non-Covered" values. But no. So, accumulate all the
-    # Non-Covered sums here and print them at the end.
+    # sum of the claim lines' "Non-Covered" values. But no.
+    # So, accumulate all the Non-Covered sums here and print them after all
+    # the claim lines are processed.
     non_covered_lines_accum = Decimal(0)
 
     # storage for as-parsed csv line
@@ -311,7 +314,7 @@ def main_except(argv):
     # accumulate the non-covered values
     non_covered_lines_accum += Decimal(lines_accum["Non-Covered:"])
 
-    # Done dumping claims. Print the totals.
+    # Done dumping claims and claim lines. Print the totals.
     print()
     for key in claims_accum_keys:
         format_claim_value(claims_accum, key)
