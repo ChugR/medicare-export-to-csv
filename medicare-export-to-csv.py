@@ -1,33 +1,6 @@
 #medicare-to-csv.py
 
 """
-Overview
-========
-What happens behind the Medicare-Private insurance billing wall(s)?
-Suppose I go to CVS and get a "free" flu shot. How much did CVS bill for it?
-Where did that bill go? How much did my private insurance have to pay?
-At the end of the year were my private insurance premiums worth it or did
-medicare pay for everything?
-
-This code is an exploration into finding answers to these questions.
-
-Apparently each medical insurance billable event is first sent to Medicare.
-There it is assigned a "Claim" number.
-Then each treatment or procedure related to the event has a "Procedure Code" and
-costs associated with it. Each of these is listed as a "Claim Line" for the Claim.
-
-As a claim is processed the provider charges some amount. Medicare then may reduce
-that amount (why? how?) or it may not to arrive at an Approved amount. Then
-Medicare pays some amount the provider which may or may not be less than the
-approved amount. I presume that the unpaid amount is then sent to my private
-insurance who may or may not pay it. After that I get my bill.
-
-The MyMedicare gui summarizes the claims but is not great at exposing details.
-The exported claims text file shows everything. But each claim line contains a
-dizzying amount of detail and there may be hundreds of claim lines for a given
-claim. The CSV spreadsheet data omits many details in order to present an
-executive overview of Medicare internals that makes sense.
-
 Obviously you don't just look in one place to see what happened.
 This code is part of a process:
 
@@ -62,8 +35,8 @@ This code sums up the total claim amounts and the per-claim line amounts.
 Year over year the exported data field names vary. This keeps maintenance on this
 code high.
 
-Command line
-------------
+Command line example
+--------------------
 > python medicare-export-to-csv.py my-data.txt > my-data.csv
 
 File history
@@ -97,7 +70,7 @@ from re import sub
 from decimal import Decimal
 import copy
 
-version = 1.7
+version = 1.8
 
 # key prefixes
 HEADER_SEP = "--------------------------------"  # ignore this
@@ -201,8 +174,8 @@ def main_except(argv):
         value = raw_line[key_pos + 1:]
         value = value.lstrip(" $")
         if key == "Line number:":  # fix up the line number value
-            value = "...Line " + value  # Adjust line number for visual ID
-            data_map["Blank Space"] = "."
+            value = "         " + value  # visual appeal
+            data_map["Blank Space"] = ""
         if key == "Provider:" or key.startswith("Procedure Code"):
             value = value[0:50]  # Some values might be hundreds of characters. trim them.
         data_map[key] = value
@@ -229,7 +202,7 @@ def main_except(argv):
         if p_state == State.IDLE:
             pass
         elif p_state == State.PROCESSING_CLAIM:
-            print(".")
+            print("")
             print_data_as_claim()
             # accumulate totals for this claim
             for key in claims_accum_keys:

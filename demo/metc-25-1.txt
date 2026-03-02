@@ -1,0 +1,1561 @@
+--------------------------------
+Medicare.gov/my PERSONAL HEALTH INFORMATION
+
+--------------------------------
+**********CONFIDENTIAL***********
+
+12/31/2026 9:03 AM
+
+
+
+
+--------------------------------
+Demographic
+
+--------------------------------
+
+Source: Medicare.gov/my
+
+
+
+Name: John Q PUBLIC
+
+Date of Birth: 1/1/1970
+
+Address Line 1: 123 MAIN ST
+
+Address Line 2: 
+
+City: AGAWAM
+
+State: MA
+
+Zip: 01001
+
+Email: aga@wam.com
+
+Part A Effective Date: 08/01/2001
+
+Part B Effective Date: 07/01/2001
+
+--------------------------------
+Plans
+
+--------------------------------
+
+Source: Medicare.gov/my
+
+
+
+Plan Name: Hospital Insurance (Part A)
+
+Plan Type: Original Medicare
+
+Plan Period: 08/01/2001 - current
+
+Plan ID: 
+
+Marketing Name: 
+
+
+
+Plan Name: Medical Insurance (Part B)
+
+Plan Type: Original Original Medicare
+
+Plan Period: 07/01/2001 - current
+
+Plan ID: 
+
+Marketing Name: 
+
+
+
+Plan Name: Ancient Scripture SmartRxd (PDP)
+
+Plan Type: Medicare Prescription Drug Plan
+
+Plan Period: 09/01/2001 - 12/31/2025
+
+Plan ID: 244
+
+Marketing Name: Mount Etna Medicare
+
+
+
+Plan Name: Random Value Drugs (PDP)
+
+Plan Type: Medicare Prescription Drug Plan
+
+Plan Period: 01/01/2001 - current
+
+Plan ID: 1374
+
+Marketing Name: Wellness Itself
+
+
+
+--------------------------------
+Employer Subsidy
+
+--------------------------------
+
+Source: Medicare.gov/my
+
+
+
+--------------------------------
+Primary Insurance
+
+--------------------------------
+
+
+Source: Medicare.gov/my
+
+
+
+Policy Number: 
+
+Insurer Name: BETTER HEALTH PLANNERS, INC.
+
+Insurer Address: 1 E PARK DR STE 9 AGAWAM, MA 01001-0009
+
+MSP Type: Working Aged
+
+Coverage Dates: 01/01/2001 - 01/30/2025
+
+
+--------------------------------
+Other Insurance
+
+--------------------------------
+
+Source: Medicare.gov/my
+
+
+Policy Number: None
+
+COBA ID: 44
+
+Insurer Name: TUFTS OF MASSACHUSETTS INC.
+
+Insurer Address: 101 NEUTRAL DRIVE None BOSTON, MA 022102226
+
+Coverage Dates: 09/01/2001 - current
+
+
+
+--------------------------------
+Claim Summary
+
+--------------------------------
+
+
+Source: Medicare.gov/my
+
+
+Claim Number: 0385486200145
+
+Provider: MINUTECLINIC DIAGNOSTIC OF MASSACHUSETTS LLC
+
+Provider Billing Address: PO BOX 8483 BELFAST, ME 04915-8483
+
+Service Start Date: 9/30/2025
+
+Service End Date: 9/30/2025
+
+Amount Charged: $483.00
+
+Medicare Approved: $115.71
+
+text.claims.fieldLabels.medicarePaidToProvider: $90.71
+
+You May be Billed: $0.00
+
+Claim Type: Part B
+
+Diagnosis Code 1: R42
+
+
+
+Line number: 1
+
+Date of Service From: 9/30/2025
+
+Date of Service To: 9/30/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: 99213 - ESTABLISHED PATIENT OFFICE OR OTHER OUTPATIENT VISIT WITH LOW LEVEL OF DECISION MAKING, IF USING TIME, 20 MINUTES OR MORE
+
+text.claims.lines.fieldLabels.modifierCode 1: 93
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $413.00
+
+Allowed Amount: $98.98
+
+Non-Covered: $19.80
+
+
+
+Line number: 2
+
+Date of Service From: 9/30/2025
+
+Date of Service To: 9/30/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: G2211 - VISIT COMPLEXITY INHERENT TO EVALUATION AND MANAGEMENT ASSOCIATED WITH MEDICAL CARE SERVICES THAT SERVE AS THE CONTINUING FOCAL POINT FOR ALL NEEDED HEALTH CARE SERVICES AND/OR WITH MEDICAL CARE SERVICES THAT ARE PART OF ONGOING CARE RELATED TO A PATIENT'S SINGLE, SERIOUS CONDITION OR A COMPLEX CONDITION. (ADD-ON CODE, LIST SEPARATELY IN ADDITION TO OFFICE/OUTPATIENT EVALUATION AND MANAGEMENT VISIT, NEW OR ESTABLISHED)
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $70.00
+
+Allowed Amount: $16.73
+
+Non-Covered: $3.35
+
+--------------------------------
+
+
+
+--------------------------------
+
+Claim Number: 0385486200146
+
+Provider: MINUTECLINIC DIAGNOSTIC OF MASSACHUSETTS LLC
+
+Provider Billing Address: PO BOX 8483 BELFAST, ME 04915-8483
+
+Service Start Date: 9/21/2025
+
+Service End Date: 9/21/2025
+
+Amount Charged: $40.00
+
+Medicare Approved: $7.91
+
+text.claims.fieldLabels.medicarePaidToProvider: $6.20
+
+You May be Billed: $0.00
+
+Claim Type: Part B
+
+Diagnosis Code 1: I440
+
+
+
+Line number: 1
+
+Date of Service From: 9/21/2025
+
+Date of Service To: 9/21/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: 93010 - ROUTINE ELECTROCARDIOGRAM (ECG) USING AT LEAST 12 LEADS WITH INTERPRETATION AND REPORT ONLY
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $40.00
+
+Allowed Amount: $7.91
+
+Non-Covered: $1.58
+
+--------------------------------
+
+
+
+--------------------------------
+
+Claim Number: 0385486200150
+
+Provider: MINUTECLINIC DIAGNOSTIC OF MASSACHUSETTS LLC
+
+Provider Billing Address: PO BOX 8483 BELFAST, ME 04915-8483
+
+Service Start Date: 03/10/2025
+
+Service End Date: 03/10/2025
+
+Amount Charged: $410.90
+
+Medicare Approved: $130.30
+
+text.claims.fieldLabels.medicarePaidToProvider: $109.67
+
+You May be Billed: $0.00
+
+Claim Type: Part B
+
+Diagnosis Code 1: J029
+
+
+
+Line number: 1
+
+Date of Service From: 03/10/2025
+
+Date of Service To: 03/10/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: 99203 - NEW PATIENT OFFICE OR OTHER OUTPATIENT VISIT WITH LOW LEVEL OF MEDICAL DECISION MAKING, IF USING TIME, 30 MINUTES OR MORE
+
+text.claims.lines.fieldLabels.modifierCode 1: ~
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $339.32
+
+Allowed Amount: $95.21
+
+Non-Covered: $19.04
+
+
+
+Line number: 2
+
+Date of Service From: 03/10/2025
+
+Date of Service To: 03/10/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: 87651 - DETECTION TEST BY NUCLEIC ACID FOR STREP (STREPTOCOCCUS, GROUP A), AMPLIFIED PROBE TECHNIQUE
+
+text.claims.lines.fieldLabels.modifierCode 1: QW
+
+text.claims.lines.fieldLabels.modifierCode 2: ~
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $71.58
+
+Allowed Amount: $35.09
+
+Non-Covered: $0.00
+
+
+
+Line number: 3
+
+Date of Service From: 03/10/2025
+
+Date of Service To: 03/10/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: G9275 - DOCUMENTATION THAT PATIENT IS A CURRENT NON-TOBACCO USER
+
+text.claims.lines.fieldLabels.modifierCode 1: ~
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $0.00
+
+Allowed Amount: $0.00
+
+Non-Covered: $0.00
+
+
+
+Line number: 4
+
+Date of Service From: 03/10/2025
+
+Date of Service To: 03/10/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: G8427 - ELIGIBLE CLINICIAN ATTESTS TO DOCUMENTING IN THE MEDICAL RECORD THEY OBTAINED, UPDATED, OR REVIEWED THE PATIENT'S CURRENT MEDICATIONS
+
+text.claims.lines.fieldLabels.modifierCode 1: ~
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $0.00
+
+Allowed Amount: $0.00
+
+Non-Covered: $0.00
+
+
+
+Line number: 5
+
+Date of Service From: 03/10/2025
+
+Date of Service To: 03/10/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: G8510 - SCREENING FOR DEPRESSION IS DOCUMENTED AS NEGATIVE, A FOLLOW-UP PLAN IS NOT REQUIRED
+
+text.claims.lines.fieldLabels.modifierCode 1: ~
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $0.00
+
+Allowed Amount: $0.00
+
+Non-Covered: $0.00
+
+
+
+Line number: 6
+
+Date of Service From: 03/10/2025
+
+Date of Service To: 03/10/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: G8752 - MOST RECENT SYSTOLIC BLOOD PRESSURE < 140 MMHG
+
+text.claims.lines.fieldLabels.modifierCode 1: ~
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $0.00
+
+Allowed Amount: $0.00
+
+Non-Covered: $0.00
+
+
+
+Line number: 7
+
+Date of Service From: 03/10/2025
+
+Date of Service To: 03/10/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: G8754 - MOST RECENT DIASTOLIC BLOOD PRESSURE < 90 MMHG
+
+text.claims.lines.fieldLabels.modifierCode 1: ~
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $0.00
+
+Allowed Amount: $0.00
+
+Non-Covered: $0.00
+
+--------------------------------
+
+
+
+--------------------------------
+
+Claim Number: 0385486200151
+
+Provider: MINUTECLINIC DIAGNOSTIC OF MASSACHUSETTS LLC
+
+Provider Billing Address: PO BOX 8483 BELFAST, ME 04915-8483
+
+Service Start Date: 03/08/2025
+
+Service End Date: 03/08/2025
+
+Amount Charged: $404.00
+
+Medicare Approved: $98.98
+
+text.claims.fieldLabels.medicarePaidToProvider: $77.60
+
+You May be Billed: $0.00
+
+Claim Type: Part B
+
+Diagnosis Code 1: G5701
+
+
+
+Line number: 1
+
+Date of Service From: 03/08/2025
+
+Date of Service To: 03/08/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: 99213 - ESTABLISHED PATIENT OFFICE OR OTHER OUTPATIENT VISIT WITH LOW LEVEL OF DECISION MAKING, IF USING TIME, 20 MINUTES OR MORE
+
+text.claims.lines.fieldLabels.modifierCode 1: ~
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $404.00
+
+Allowed Amount: $98.98
+
+Non-Covered: $19.80
+
+--------------------------------
+
+
+
+--------------------------------
+
+Claim Number: 0385486200147
+
+Provider: MINUTECLINIC DIAGNOSTIC OF MASSACHUSETTS LLC
+
+Provider Billing Address: PO BOX 8483 BELFAST, ME 04915-8483
+
+Service Start Date: 03/06/2025
+
+Service End Date: 03/06/2025
+
+Amount Charged: $501.00
+
+Medicare Approved: $112.94
+
+text.claims.fieldLabels.medicarePaidToProvider: $88.54
+
+You May be Billed: $0.00
+
+Claim Type: Part B
+
+Diagnosis Code 1: R42
+
+
+
+Line number: 1
+
+Date of Service From: 03/06/2025
+
+Date of Service To: 03/06/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: 99239 - HOSPITAL INPATIENT OR OBSERVATION DISCHARGE DAY MANAGEMENT, MORE THAN 30 MINUTES
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $501.00
+
+Allowed Amount: $112.94
+
+Non-Covered: $22.59
+
+--------------------------------
+
+
+
+--------------------------------
+
+Claim Number: 0385486200152
+
+Provider: MINUTECLINIC DIAGNOSTIC OF MASSACHUSETTS LLC
+
+Provider Billing Address: PO BOX 8483 BELFAST, ME 04915-8483
+
+Service Start Date: 03/06/2025
+
+Service End Date: 03/06/2025
+
+Amount Charged: $38.00
+
+Medicare Approved: $9.07
+
+text.claims.fieldLabels.medicarePaidToProvider: $7.11
+
+You May be Billed: $0.00
+
+Claim Type: Part B
+
+Diagnosis Code 1: R0602
+
+Diagnosis Code 2: R918
+
+
+
+Line number: 1
+
+Date of Service From: 03/06/2025
+
+Date of Service To: 03/06/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: 71045 - X-RAY OF CHEST, 1 VIEW
+
+text.claims.lines.fieldLabels.modifierCode 1: 26
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $38.00
+
+Allowed Amount: $9.07
+
+Non-Covered: $1.81
+
+--------------------------------
+
+
+
+--------------------------------
+
+Claim Number: 0385486200145
+
+Provider: MINUTECLINIC DIAGNOSTIC OF MASSACHUSETTS LLC
+
+Provider Billing Address: PO BOX 8483 BELFAST, ME 04915-8483
+
+Service Start Date: 03/05/2025
+
+Service End Date: 03/05/2025
+
+Amount Charged: $742.00
+
+Medicare Approved: $169.77
+
+text.claims.fieldLabels.medicarePaidToProvider: $133.10
+
+You May be Billed: $0.00
+
+Claim Type: Part B
+
+Diagnosis Code 1: R42
+
+
+
+Line number: 1
+
+Date of Service From: 03/05/2025
+
+Date of Service To: 03/05/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: 99285 - EMERGENCY DEPARTMENT VISIT WITH HIGH LEVEL OF MEDICAL DECISION MAKING
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $742.00
+
+Allowed Amount: $169.77
+
+Non-Covered: $33.95
+
+--------------------------------
+
+
+
+--------------------------------
+
+Claim Number: 0385486200145
+
+Provider: MINUTECLINIC DIAGNOSTIC OF MASSACHUSETTS LLC
+
+Provider Billing Address: PO BOX 8483 BELFAST, ME 04915-8483
+
+Service Start Date: 03/04/2025
+
+Service End Date: 03/04/2025
+
+Amount Charged: $564.00
+
+Medicare Approved: $127.57
+
+text.claims.fieldLabels.medicarePaidToProvider: $100.02
+
+You May be Billed: $0.00
+
+Claim Type: Part B
+
+Diagnosis Code 1: R42
+
+
+
+Line number: 1
+
+Date of Service From: 03/04/2025
+
+Date of Service To: 03/04/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: 99222 - INITIAL HOSPITAL INPATIENT OR OBSERVATION CARE WITH MODERATE LEVEL OF MEDICAL DECISION MAKING. IF USING TIME, 55 MINUTES OR MORE
+
+text.claims.lines.fieldLabels.modifierCode 1: AI
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $564.00
+
+Allowed Amount: $127.57
+
+Non-Covered: $25.51
+
+--------------------------------
+
+
+
+--------------------------------
+
+Claim Number: 0385486200145
+
+Provider: CVS PHARMACY INC
+
+Provider Billing Address: 
+
+Service Start Date: 03/03/2025
+
+Service End Date: 03/03/2025
+
+Amount Charged: $125.99
+
+Medicare Approved: $125.99
+
+text.claims.fieldLabels.medicarePaidToProvider: $123.47
+
+You May be Billed: $0.00
+
+Claim Type: Part B
+
+Diagnosis Code 1: Z23
+
+
+
+Line number: 1
+
+Date of Service From: 03/03/2025
+
+Date of Service To: 03/03/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: 90662 - INFLUENZA VACCINE SPLIT VIRUS, PRESERVATIVE FREE
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $98.16
+
+Allowed Amount: $98.16
+
+Non-Covered: $0.00
+
+
+
+Line number: 2
+
+Date of Service From: 03/03/2025
+
+Date of Service To: 03/03/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: G0008 - ADMINISTRATION OF INFLUENZA VIRUS VACCINE
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $27.83
+
+Allowed Amount: $27.83
+
+Non-Covered: $0.00
+
+--------------------------------
+
+
+
+--------------------------------
+
+Claim Number: 0385486200160
+
+Provider: MINUTECLINIC DIAGNOSTIC OF MASSACHUSETTS LLC
+
+Provider Billing Address: PO BOX 8483 BELFAST, ME 04915-8483
+
+Service Start Date: 03/02/2025
+
+Service End Date: 03/02/2025
+
+Amount Charged: $404.00
+
+Medicare Approved: $84.13
+
+text.claims.fieldLabels.medicarePaidToProvider: $65.95
+
+You May be Billed: $0.00
+
+Claim Type: Part B
+
+Diagnosis Code 1: U071
+
+
+
+Line number: 1
+
+Date of Service From: 03/02/2025
+
+Date of Service To: 03/02/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: 99213 - ESTABLISHED PATIENT OFFICE OR OTHER OUTPATIENT VISIT WITH LOW LEVEL OF DECISION MAKING, IF USING TIME, 20 MINUTES OR MORE
+
+text.claims.lines.fieldLabels.modifierCode 1: 95
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $404.00
+
+Allowed Amount: $84.13
+
+Non-Covered: $16.83
+
+--------------------------------
+
+
+
+--------------------------------
+
+Claim Number: 0385486200162
+
+Provider: MINUTECLINIC DIAGNOSTIC OF MASSACHUSETTS LLC
+
+Provider Billing Address: PO BOX 8483 BELFAST, ME 04915-8483
+
+Service Start Date: 03/02/2025
+
+Service End Date: 03/02/2025
+
+Amount Charged: $164.00
+
+Medicare Approved: $164.00
+
+text.claims.fieldLabels.medicarePaidToProvider: $26.93
+
+You May be Billed: $0.00
+
+Claim Type: Outpatient
+
+Diagnosis Code 1: N400
+
+Diagnosis Code 2: Z0000
+
+Diagnosis Code 3: E7800
+
+Diagnosis Code 4: Z1211
+
+
+
+Line number: 1
+
+Date of Service From: 03/02/2025
+
+Date of Service To: 03/02/2025
+
+Revenue Code/Description: 0300 - LABORATORY - GENERAL CLASSIFICATION
+
+Procedure Code/Description: 36415 - INSERTION OF NEEDLE INTO VEIN FOR COLLECTION OF BLOOD SAMPLE
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $16.00
+
+Allowed Amount: $16.00
+
+Non-Covered: $0.00
+
+
+
+Line number: 2
+
+Date of Service From: 03/02/2025
+
+Date of Service To: 03/02/2025
+
+Revenue Code/Description: 0301 - LABORATORY - CHEMISTRY
+
+Procedure Code/Description: 84153 - PSA (PROSTATE SPECIFIC ANTIGEN) MEASUREMENT, TOTAL
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $148.00
+
+Allowed Amount: $148.00
+
+Non-Covered: $0.00
+
+--------------------------------
+
+
+
+--------------------------------
+
+Claim Number: 0385486200163
+
+Provider: MINUTECLINIC DIAGNOSTIC OF MASSACHUSETTS LLC
+
+Provider Billing Address: PO BOX 8483 BELFAST, ME 04915-8483
+
+Service Start Date: 03/02/2025
+
+Service End Date: 03/02/2025
+
+Amount Charged: $410.90
+
+Medicare Approved: $130.30
+
+text.claims.fieldLabels.medicarePaidToProvider: $34.39
+
+You May be Billed: $0.00
+
+Claim Type: Part B
+
+Diagnosis Code 1: J069
+
+Diagnosis Code 2: J029
+
+
+
+Line number: 1
+
+Date of Service From: 03/02/2025
+
+Date of Service To: 03/02/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: 99203 - NEW PATIENT OFFICE OR OTHER OUTPATIENT VISIT WITH LOW LEVEL OF MEDICAL DECISION MAKING, IF USING TIME, 30 MINUTES OR MORE
+
+text.claims.lines.fieldLabels.modifierCode 1: ~
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $339.32
+
+Allowed Amount: $95.21
+
+Non-Covered: $95.21
+
+
+
+Line number: 2
+
+Date of Service From: 03/02/2025
+
+Date of Service To: 03/02/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: 87651 - DETECTION TEST BY NUCLEIC ACID FOR STREP (STREPTOCOCCUS, GROUP A), AMPLIFIED PROBE TECHNIQUE
+
+text.claims.lines.fieldLabels.modifierCode 1: QW
+
+text.claims.lines.fieldLabels.modifierCode 2: ~
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $71.58
+
+Allowed Amount: $35.09
+
+Non-Covered: $0.00
+
+
+
+Line number: 3
+
+Date of Service From: 03/02/2025
+
+Date of Service To: 03/02/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: G8427 - ELIGIBLE CLINICIAN ATTESTS TO DOCUMENTING IN THE MEDICAL RECORD THEY OBTAINED, UPDATED, OR REVIEWED THE PATIENT'S CURRENT MEDICATIONS
+
+text.claims.lines.fieldLabels.modifierCode 1: ~
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $0.00
+
+Allowed Amount: $0.00
+
+Non-Covered: $0.00
+
+
+
+Line number: 4
+
+Date of Service From: 03/02/2025
+
+Date of Service To: 03/02/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: G8510 - SCREENING FOR DEPRESSION IS DOCUMENTED AS NEGATIVE, A FOLLOW-UP PLAN IS NOT REQUIRED
+
+text.claims.lines.fieldLabels.modifierCode 1: ~
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $0.00
+
+Allowed Amount: $0.00
+
+Non-Covered: $0.00
+
+
+
+Line number: 5
+
+Date of Service From: 03/02/2025
+
+Date of Service To: 03/02/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: G8752 - MOST RECENT SYSTOLIC BLOOD PRESSURE < 140 MMHG
+
+text.claims.lines.fieldLabels.modifierCode 1: ~
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $0.00
+
+Allowed Amount: $0.00
+
+Non-Covered: $0.00
+
+
+
+Line number: 6
+
+Date of Service From: 03/02/2025
+
+Date of Service To: 03/02/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: G8754 - MOST RECENT DIASTOLIC BLOOD PRESSURE < 90 MMHG
+
+text.claims.lines.fieldLabels.modifierCode 1: ~
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $0.00
+
+Allowed Amount: $0.00
+
+Non-Covered: $0.00
+
+
+
+Line number: 7
+
+Date of Service From: 03/02/2025
+
+Date of Service To: 03/02/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: G9275 - DOCUMENTATION THAT PATIENT IS A CURRENT NON-TOBACCO USER
+
+text.claims.lines.fieldLabels.modifierCode 1: ~
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $0.00
+
+Allowed Amount: $0.00
+
+Non-Covered: $0.00
+
+--------------------------------
+
+
+
+--------------------------------
+
+Claim Number: 0385486200164
+
+Provider: MINUTECLINIC DIAGNOSTIC OF MASSACHUSETTS LLC
+
+Provider Billing Address: PO BOX 8483 BELFAST, ME 04915-8483
+
+Service Start Date: 03/05/2025
+
+Service End Date: 03/05/2025
+
+Amount Charged: $375.00
+
+Medicare Approved: $58.10
+
+text.claims.fieldLabels.medicarePaidToProvider: $0.00
+
+You May be Billed: $0.00
+
+Claim Type: Part B
+
+Diagnosis Code 1: H903
+
+
+
+Line number: 1
+
+Date of Service From: 03/05/2025
+
+Date of Service To: 03/05/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: 92557 - COMPREHENSIVE HEARING AND SPEECH RECOGNITION TEST
+
+text.claims.lines.fieldLabels.modifierCode 1: ~
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $225.00
+
+Allowed Amount: $36.38
+
+Non-Covered: $36.38
+
+
+
+Line number: 2
+
+Date of Service From: 03/05/2025
+
+Date of Service To: 03/05/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: 92550 - TEST FOR EARDRUM AND MUSCLE FUNCTION
+
+text.claims.lines.fieldLabels.modifierCode 1: ~
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $150.00
+
+Allowed Amount: $21.72
+
+Non-Covered: $21.72
+
+--------------------------------
+
+
+
+--------------------------------
+
+Claim Number: 0385486200165
+
+Provider: MINUTECLINIC DIAGNOSTIC OF MASSACHUSETTS LLC
+
+Provider Billing Address: PO BOX 8483 BELFAST, ME 04915-8483
+
+Service Start Date: 03/05/2025
+
+Service End Date: 03/05/2025
+
+Amount Charged: $375.00
+
+Medicare Approved: $95.21
+
+text.claims.fieldLabels.medicarePaidToProvider: $0.00
+
+You May be Billed: $0.00
+
+Claim Type: Part B
+
+Diagnosis Code 1: H903
+
+
+
+Line number: 1
+
+Date of Service From: 03/05/2025
+
+Date of Service To: 03/05/2025
+
+Revenue Code/Description: ~ - NO DESCRIPTION AVAILABLE
+
+Procedure Code/Description: 99203 - NEW PATIENT OFFICE OR OTHER OUTPATIENT VISIT WITH LOW LEVEL OF MEDICAL DECISION MAKING, IF USING TIME, 30 MINUTES OR MORE
+
+text.claims.lines.fieldLabels.modifierCode 1: ~
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $375.00
+
+Allowed Amount: $95.21
+
+Non-Covered: $95.21
+
+--------------------------------
+
+
+
+--------------------------------
+
+Claim Number: 0385486200166
+
+Provider: MINUTECLINIC DIAGNOSTIC OF MASSACHUSETTS LLC
+
+Provider Billing Address: PO BOX 8483 BELFAST, ME 04915-8483
+
+Service Start Date: 03/05/2025
+
+Service End Date: 03/05/2025
+
+Amount Charged: $387.00
+
+Medicare Approved: $387.00
+
+text.claims.fieldLabels.medicarePaidToProvider: $50.40
+
+You May be Billed: $0.00
+
+Claim Type: Outpatient
+
+Diagnosis Code 1: E7800
+
+Diagnosis Code 2: N400
+
+Diagnosis Code 3: Z0000
+
+
+
+Line number: 1
+
+Date of Service From: 03/05/2025
+
+Date of Service To: 03/05/2025
+
+Revenue Code/Description: 0300 - LABORATORY - GENERAL CLASSIFICATION
+
+Procedure Code/Description: 36415 - INSERTION OF NEEDLE INTO VEIN FOR COLLECTION OF BLOOD SAMPLE
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $16.00
+
+Allowed Amount: $16.00
+
+Non-Covered: $0.00
+
+
+
+Line number: 2
+
+Date of Service From: 03/05/2025
+
+Date of Service To: 03/05/2025
+
+Revenue Code/Description: 0301 - LABORATORY - CHEMISTRY
+
+Procedure Code/Description: 80053 - BLOOD TEST, COMPREHENSIVE GROUP OF BLOOD CHEMICALS
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $117.00
+
+Allowed Amount: $117.00
+
+Non-Covered: $0.00
+
+
+
+Line number: 3
+
+Date of Service From: 03/05/2025
+
+Date of Service To: 03/05/2025
+
+Revenue Code/Description: 0301 - LABORATORY - CHEMISTRY
+
+Procedure Code/Description: 80061 - BLOOD TEST, LIPIDS (CHOLESTEROL AND TRIGLYCERIDES)
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $106.00
+
+Allowed Amount: $106.00
+
+Non-Covered: $0.00
+
+
+
+Line number: 4
+
+Date of Service From: 03/05/2025
+
+Date of Service To: 03/05/2025
+
+Revenue Code/Description: 0301 - LABORATORY - CHEMISTRY
+
+Procedure Code/Description: 84153 - PSA (PROSTATE SPECIFIC ANTIGEN) MEASUREMENT, TOTAL
+
+Quantity Billed/Units: 1
+
+Submitted Amount/Charges: $148.00
+
+Allowed Amount: $148.00
+
+Non-Covered: $0.00
+
+
+
+--------------------------------
+Prescription Drug / Part D Claims
+
+--------------------------------
+
+
+Source: Medicare.gov/my
+
+
+Claim Service Date: 12/01/2025
+
+Pharmacy Service / Provider: 1265531628
+
+Drug Code: 70377000315
+
+Days' Supply: 90
+
+--------------------------------
+
+
+
+--------------------------------
+
+Claim Service Date: 08/23/2025
+
+Pharmacy Service / Provider: 83602786
+
+Drug Code: 16571060000
+
+Days' Supply: 4
+
+--------------------------------
+
+
+
+--------------------------------
+
+Claim Service Date: 11/25/2025
+
+Pharmacy Service / Provider: 1267777777
+
+Drug Code: 57666666666
+
+Days' Supply: 30
+
+--------------------------------
+
+
+
+--------------------------------
+
+Claim Service Date: 05/22/2025
+
+Pharmacy Service / Provider: 6363625628
+
+Drug Code: 76308645315
+
+Days' Supply: 90
+
+--------------------------------
+
+
+
+--------------------------------
+
+Claim Service Date: 03/29/2025
+
+Pharmacy Service / Provider: 126353535333
+
+Drug Code: 0006y49900
+
+Days' Supply: 5
+
+--------------------------------
+
+
+
+--------------------------------
+
+Claim Service Date: 03/18/2025
+
+Pharmacy Service / Provider: 8484848484
+
+Drug Code: 737373737373
+
+Days' Supply: 1
+
+--------------------------------
+
+
+
+--------------------------------
+
+
+
+
+--------------------------------
+Preventive Services
+
+--------------------------------
+
+
+Source: Medicare.gov/my
+
+
+
+Description: 
+
+Next Eligible Date: 07/01/2021
+
+Last Date of Service: 
+
+
+
+Description: 
+
+Next Eligible Date: 07/01/2021
+
+Last Date of Service: 
+
+
+
+Description: 
+
+Next Eligible Date: 07/01/2021
+
+Last Date of Service: 
+
+
+
+Description: 
+
+Next Eligible Date: 07/01/2021
+
+Last Date of Service: 
+
+
+
+Description: 
+
+Next Eligible Date: 07/01/2021
+
+Last Date of Service: 
+
+
+
+Description: 
+
+Next Eligible Date: 07/01/2021
+
+Last Date of Service: 
+
+
+
+Description: 
+
+Next Eligible Date: 07/01/2021
+
+Last Date of Service: 
+
+
+
+Description: 
+
+Next Eligible Date: 07/01/2021
+
+Last Date of Service: 
+
+
+
+Description: 
+
+Next Eligible Date: 07/01/2021
+
+Last Date of Service: 
+
+
+
+Description: 
+
+Next Eligible Date: 12/01/2022
+
+Last Date of Service: 12/17/2021
+
+
+
+Description: 
+
+Next Eligible Date: 07/01/2023
+
+Last Date of Service: 
+
+
+
+Description: 
+
+Next Eligible Date: 09/30/2024
+
+Last Date of Service: 
+
+
+
+Description: 
+
+Next Eligible Date: 09/30/2024
+
+Last Date of Service: 
+
+
+
+Description: 
+
+Next Eligible Date: 09/30/2024
+
+Last Date of Service: 
+
+
+
+Description: 
+
+Next Eligible Date: 06/01/2025
+
+Last Date of Service: 06/24/2024
+
+
+
+Description: 
+
+Next Eligible Date: 07/01/2026
+
+Last Date of Service: 
+
+
+
+Description: 
+
+Next Eligible Date: 07/01/2026
+
+Last Date of Service: 07/03/2025
+
+
+
+Description: 
+
+Next Eligible Date: 07/01/2026
+
+Last Date of Service: 
